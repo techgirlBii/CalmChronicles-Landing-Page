@@ -1,0 +1,263 @@
+*{
+    margin:0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(207, 19, 107);
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    
+    width: 90%;
+    margin: 60px auto;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration:none;
+    color: rgb(207, 19, 107);
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.strapline-container{
+    border: solid rgb(207, 19, 107);
+    width: 85%;
+    height: 460px;
+    margin: 45px auto;
+    text-align: center;
+    background-image: url(./images/back.jpg);
+    background-size:cover;
+    background-position:bottom;
+}
+.main-strapline{
+    color: rgb(153, 13, 99);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 43.5px;
+    margin: 0px auto;
+    text-align: left;
+    letter-spacing: normal;
+    text-align: center;
+}
+.second-strapline{
+    color: rgb(240, 108, 152);
+    font-size: 19px;
+    font-style: italic;
+    text-align: left;
+    margin-right: 6%;
+    text-align: center;
+    
+}
+.section-title{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 240%;
+    margin: 60px;
+    color: rgb(207, 19, 107)
+    }
+.about-section{
+    width:100vw;
+    height: 90vh;
+} 
+.about-container{
+    
+    width: 85%;
+    margin: 2px auto;
+    display: flex;
+    flex-direction: row;
+} 
+.left-box{
+color: rgb(207, 19, 107);
+font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 45%;
+    text-align: justify;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+   
+}  
+.right-box{
+   
+    width: 40%;
+    margin-left: 6%;
+}
+.service-section{
+    height:35vh;
+    margin: auto 50px;
+    margin-bottom: 9px;
+    
+}
+.grid-image-one{
+    background-image: url(./images/therapy.jpg);
+    background-size:contain;
+    background-position: center;
+    width: 50%;
+    height: 170px;
+}
+.top-row{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+.grid-image-two{
+    background-image: url(./images/therapy3.jpg);
+    background-size:cover;
+    background-position: center;
+    width: 50%;
+    height: 170px;
+}
+.grid-image-three{
+    background-image: url(./images/therapy4.avif);
+    background-size:cover;
+    background-position: center;
+    width: 50%;
+    height: 170px;
+
+
+}
+.grid-image-four{
+    background-image: url(./images/therapy2.jpg);
+    background-size:cover;
+    background-position: center;
+    width: 50%;
+    height: 170px;
+}
+.link-link{
+       text-decoration: underline;
+       text-align: center;
+       text-decoration:none;
+    color: rgb(207, 19, 107);
+    font-size: 20px;
+    margin: 0px 70px;
+    letter-spacing: 65px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 60px;
+}
+.Work-container{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: px;
+    color: rgb(207, 19, 107)
+    
+}
+.work-section{
+    width: 100vw;
+}
+.image-container{
+    width: 100vw;
+}
+.row-one, .row-two, .row-three{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+.grid-item{
+    width: 30%;
+    height: 310px;
+    display: inline-block;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item:hover{
+    opacity: 0.80;
+}
+#work-one{
+    background-image: url(./images/work3.avif);
+}
+#work-two{
+    background-image: url(./images/work2.avif);
+}
+#work-three{
+    background-image: url(./images/work1.avif);
+}
+#work-four{
+    background-image: url(./images/work4.avif);
+}
+#work-five{
+    background-image: url(./images/cimage.avif);
+}
+#work-six{
+    background-image: url(./images/work5.avif);
+}
+#work-seven{
+    background-image: url(./images/work6.avif);
+}
+#work-eight{
+    background-image: url(./images/work9.avif);
+}
+#work-nine{
+    background-image: url(./images/work8.avif);
+}
+.contact-section{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(207, 19, 107);
+    text-align: center;
+    color: #FFFFDD;
+}
+.contact-title{
+    margin: 25px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+.email{
+    font-size: 110%;
+}
+.social-media{
+   display: flex; 
+   flex-direction: row;
+   justify-content: center;
+   width: 40vw;
+   margin: 0 auto;
+}
+.icons{
+    margin: 0px 7.5px;
+}
+.btn{
+    font-size: 25px;
+    background-color: rgb(207, 19, 107);
+    color: #FFFFDD;
+    border-radius: 8px;
+
+}
+.button-box:hover{
+    opacity: 0.8;
+}
+.welcome-message{
+    color: rgb(71, 11, 39);
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+    text-align:right;
+    margin-right: 6%;
+    text-align: center;
+    
+}
+.message-container{
+    width: 100%;
+   margin-top: 30px;
+
+   
+}
